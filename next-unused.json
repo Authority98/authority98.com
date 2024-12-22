@@ -1,0 +1,16 @@
+{
+  "debug": true,
+  "entry": [
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./lib/**/*.{js,jsx,ts,tsx}"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "*.d.ts"
+  ],
+  "export": [
+    "./components/**/*.{js,jsx,ts,tsx}"
+  ]
+} 
